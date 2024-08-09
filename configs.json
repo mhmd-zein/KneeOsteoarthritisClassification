@@ -1,0 +1,17 @@
+{
+    "seed":42,
+    "data":{
+        "path":"data/KneeOsteoarthritisDataset",
+        "shuffle": true,
+        "batch_size":64
+    },
+    "transforms":{
+        "template_path": "val/0/9067323L.png",
+        "pos_refs":["train/3/9873010L.png","train/3/9800677L.png","train/3/9027594L.png"],
+        "neg_refs": ["train/3/9603227R.png","train/1/9563176R.png","train/1/9608695L.png"],
+        "cliplimit":2,
+        "tilegridsize":[8,8],
+        "t1": 90,
+        "t2": 150
+    }
+}
